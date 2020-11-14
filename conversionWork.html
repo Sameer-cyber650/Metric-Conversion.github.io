@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+function getValue(){
+var Num11=document.getElementById('Num2').value;
+var number2=(Num11*100);
+document.getElementById('Num1').value=number2;
+}
+    
+    
+
+
+
+function getValue2(){
+var Num11=document.getElementById('Num1').value;
+var number2=(Num11/100);
+document.getElementById('Num2').value=number2;
+}
+
+
+
+    
+    
+    </script>
+</head>
+<body background="si-moat-hed-d.jpg">
+<div style="color:#963;border-style:groove">
+<img src="clipart-ruler-three-15.png" height="150px" width="100%">
+</div>
+<div style="margin-left:480px"><h1 style="font-family:'Times New Roman', Times, serif;font-size:60px;color:#FFF">Length Conversion</h1></div>
+<marquee behavior="slide" direction="up"><h1 style="color:#FFC;text-align:center">Conversion From <i style="color:#CCC">Centimeter To Meter</i> &amp; Vice Versa</h1></marquee>
+<div>
+
+<div style="background-color:#999;margin-left:400px;width:35%;height:200px;border-style:groove;border-color:#000">
+<p style="padding-top: 9px">
+<h3 style="display:inline">Enter Centimeter Values   :</h3><input type="text" name="FirstNumber"  id="Num1" onkeyup="getValue2()" style="display:inline;margin-left: 15px;
+    border: black;border-style: groove;font-size:14px;font-family:'Arial Black', Gadget, sans-serif" placeholder="cm" />
+</p>
+
+
+
+<p style="padding-top: 9px">
+<h3 style="display:inline">Enter Meter Values   :</h3><input type="text" name="SecondNumber" id="Num2" onkeyup="getValue()" style="display:inline;margin-left: 55px;
+    border: black;border-style: groove;font-size:14px;font-family:'Arial Black', Gadget, sans-serif" placeholder="cm" />
+</p>
+
+</div>
+
+
+
+
+<div>
+
+    
+    
+    
+    </div>
+    
+    
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>si-system</title>
+</head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+$('.navbar-light .dmenu').hover(function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+    });
+});
+</script>
+<style>
+.template_faq {
+    background: #edf3fe none repeat scroll 0 0;
+}
+.panel-group {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 0;
+    padding: 30px;
+}
+#accordion .panel {
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 0 15px 10px;
+}
+#accordion .panel-heading {
+    border-radius: 30px;
+    padding: 0;
+}
+#accordion .panel-title a {
+    background: #ffb900 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px 12px 50px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a.collapsed {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #333;
+}
+#accordion .panel-title a::after, #accordion .panel-title a.collapsed::after {
+    background: #ffb900 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.58);
+    color: #fff;
+    content: "";
+    font-family: fontawesome;
+    font-size: 25px;
+    height: 55px;
+    left: -20px;
+    line-height: 55px;
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    transition: all 0.3s ease 0s;
+    width: 55px;
+}
+#accordion .panel-title a.collapsed::after {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    color: #333;
+    content: "";
+}
+#accordion .panel-body {
+    background: transparent none repeat scroll 0 0;
+    border-top: medium none;
+    padding: 20px 25px 10px 9px;
+    position: relative;
+}
+#accordion .panel-body p {
+    border-left: 1px dashed #8c8c8c;
+    padding-left: 25px;
+}
+<!--========================navend================>
+.social-part .fa{
+    padding-right:20px;
+}
+ul li a{
+    margin-right: 20px;
+}
+<!--footer->
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+</style>
+<body background="all pictures/Wood-Wallpaper-Background-20.jpg">
+<div style="background-image:url(all%20pictures/Wood-Wallpaper-Background-20.jpg)">
+<div style="color:#963;border-style:groove">
+<!--header end -->
+<div style="background-image:url(all%20pictures/Wood-Wallpaper-Background-20.jpg)">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-4">
+<a href="index 6.html"><img src="all pictures/da2c9c9a-5c49-4439-a76c-79706f9457a8_200x200 (1).png"></a></div>
+<div class="col-lg-8" style="margin-left: -178px;">
+<div><P style="text-align:center;
+font-family:'Times New Roman', Times, serif; font-size:60px; color:
+#000;     margin-top: 39px; ">METRIC CONVERSIONS</P></div></div></div>
+<div style="background-image:url(all%20pictures/Wood-Wallpaper-Background-20.jpg) ;
+height: 297px;    margin-top: -196px;"><marquee style="marquee-style:slide;margin-top: -35px;"><img src="all pictures/7980318_thermometer-auto-pole-cross-bar-hd-png-download-removebg-preview.png" style="       margin-top: 177px;
+    width: 99px;"/>
+    <img src="all pictures/old-scale-brass_original-removebg-preview.png" style="width: 92px;
+    margin-top: 193px;
+    margin-left: 54px;"/>
+       <img src="all pictures/s-l400-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+    <img src="all pictures/measure_tape_PNG14-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+     <img src="all pictures/51KxIggjIBL-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+     <img src="all pictures/AMProbe-Digital-Multimeter-e1496672652434-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+    <img src="all pictures/wp2874974.jpg" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+    <img src="all pictures/imgbin-pressure-measurement-gauge-diaphragm-measuring-instrument-high-definition-stainless-steel-with-base-scale-Vu8dsuqfBNe9aEZtXPxY1D9WG-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+    
+    
+   
+    
+   
+    
+</marquee></div>
+
+
+ <div class="row">
+<div class="col-lg-12">
+    <nav class="navbar navbar-expand-sm   navbar-light bg-light" style="    margin-top: -10px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link"  href="index 6.html">Home </a>
+              
+            </li>
+           
+            <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+             Conversions
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="Area final.html">Area</a>
+              <hr>
+              <a class="dropdown-item" href="lengthfinal.html">Length</a>
+              <hr>
+              <a class="dropdown-item"  href="Mass con finl.html">Mass</a>
+              <hr>
+              <a class="dropdown-item"  href="temp con finl.html">Temperature</a>
+              <hr>
+              <a class="dropdown-item"  href="volume final.html">Volume</a>
+              <hr>
+              <a class="dropdown-item"  href="Currency.html">Currency</a>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="FAQ'S final.html">FAQ'S</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="HISTORY.html">History</a>
+          </li>
+           <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Articles
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item"  href="si system.html">SI-unit system</a>
+              <hr>
+              <a class="dropdown-item"  href="metric system.html">Metric system</a>
+              <hr>
+              <a class="dropdown-item"  href="history of metric sys.html">History of Metric system</a>
+              <hr>
+              <a class="dropdown-item"  href="us trad.html">US-traditional unit system</a>
+              
+            </div>
+          </li>
+           <!-- <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="#">Link 4</a>
+              <a class="dropdown-item" href="#">Link 5</a>
+              <a class="dropdown-item" href="#">Link 6</a>
+            </div>
+          </li> -->
+          </ul>
+         
+        </div>
+      </nav>
+   </div>
+   </div>
+   
+   
+<div class="container">
+<div class="row">
+<img src="all pictures/International_System_of_Units_Logo.png"  style="width: 218px;
+    margin-left: 186px;" />
+    <h1 style="        margin-top: 73px;
+    margin-left: 41px;
+    font-size: 75px; color:#000">SI-units</h1>
+</div>
+</div>
+       <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-title text-center wow zoomIn">
+						<h1 style="font-family:'Comic Sans MS', cursive; color:#000">INTRODUCTION</h1>
+						<span></span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">				
+				<div class="col-md-12">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Introduction to SI-units.
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								<div class="panel-body">
+									<p style="color:#000;font-size: 22px;"> The International System of Units (SI, abbreviated from the French Système international (d'unités)) is the modern form of the metric system and is the most widely used system of measurement[citation needed]. It comprises a coherent system of units of measurement built on seven base units, which are the second,
+ metre, kilogram, ampere, kelvin, mole, candela, and a set of twenty prefixes to the unit names and unit symbols that may be used when specifying multiples and fractions of the units.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingTwo">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Which are the SI units?
+									</a>
+								</h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="panel-body">
+									<p style="color:#000;font-size: 22px;">The seven SI base units, which are comprised of:<br />
+                                    Length - meter (m)
+                                    <br />
+Time - second (s)
+<br />
+Amount of substance - mole (mole)
+<br />
+Electric current - ampere (A)
+<br />
+Temperature - kelvin (K)
+<br />
+Luminous intensity - candela (cd)
+<br />
+Mass - kilogram (kg)</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingThree">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										 Redefinition of the SI base units of 2019
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+								<div class="panel-body">
+									<p style="color:#000;font-size: 22px;">In 2019, the SI base units were redefined, effective on 144th anniversary of the Metre Convention, 20 May 2019. In the redefinition, four of the seven SI base units – the kilogram, ampere, kelvin, and mole – were redefined by setting exact numerical values for the Planck constant (h), the elementary electric charge (e), the Boltzmann constant (kB), and the Avogadro constant (NA), respectively.
+                                    <img src="all pictures/1200px-Unit_relations_in_the_new_SI.svg.png" style="width: 338px;    margin-left: 283px;" />
+                                    <br />
+The second, metre, and candela were already defined by physical constants and were subject to correction to their definitions. The new definitions aimed to improve the SI without changing the value of any units, ensuring continuity with existing measurements. In November 2018, the 26th General Conference on Weights and Measures (CGPM) unanimously approved these changes, which the International Committee for Weights and Measures (CIPM) had proposed earlier that year after determining that previously agreed conditions for the change had been met. These conditions were satisfied by a series of experiments that measured the constants to high accuracy relative to the old SI definitions, and were the culmination of decades of research.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingFour">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										Redefinition of the SI base units of 1971
+									</a>
+								</h4>
+							</div>
+							<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+								<div class="panel-body">
+									<p style="color:#000;font-size: 22px;">In 1954, the 9th General Conference on Weights and Measures (CGPM) created the first version of the International System of Units. The six base units that they used were the metre, kilogram, second, ampere, Kelvin, and candela. The seventh base unit, the mole, was added in 1971.
+                                    <br />
+                                    <img src="all pictures/c4207963c77c9035c3c83ece15204da7.png" style="width: 338px;    margin-left: 283px;" />
+                                    <br />
+                                    The six base units that they used were the metre, kilogram, second, ampere, Kelvin, and candela. The seventh base unit, the mole, was added in 1971. SI is now used almost everywhere in the world, except in the United States, Liberia and Myanmar, where the older imperial units are still widely used.
+ </p>
+								</div>
+							</div>
+						</div>
+						
+				</div><!--- END COL -->		
+			</div><!--- END ROW -->			
+		</div>
+        </div>
+        <div id="footer" class="container">
+   <!-- Footer -->
+	<section id="footer">
+		<div class="container" style="background-image:url(all%20pictures/Wood-Wallpaper-Background-20.jpg)">
+			<div class="row text-center text-xs-center text-sm-left text-md-left" style="margin-top: 141px;">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5 style="font-size:50px;color:#2F1700"">Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li style="font-size:24px"><a href="index 6.html"style="color:#2F1700"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li style="font-size:24px"><a  href="HISTORY.html"style="color:#2F1700"><i class="fa fa-angle-double-right"></i>History</a></li>
+						<li style="font-size:24px"><a href="FAQ_S final.html"style="color:#2F1700"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        
+	
+					</ul>
+				</div>
+				
+			<div class="row" style="margin-top: 176px; color: #000" >
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"style="color:#2F1700"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/i/flow/signup" target="_blank"style="color:#2F1700"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/*" target="_blank"style="color:#2F1700"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank"style="color:#2F1700"><i class="fa fa-google-plus" ></i></a></li>
+						<li class="list-inline-item"><a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"style="color:#2F1700"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					
+					
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+  
+  
+  
+  
+  
+  
+  </div>
+  
+
+</body>
+</html>

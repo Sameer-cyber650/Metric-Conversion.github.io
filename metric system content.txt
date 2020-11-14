@@ -1,0 +1,64 @@
+Introduction to Metric-system.
+
+
+
+ The metric system is an alternative system of measurement used in most countries, as well as in the United States. The metric system is based on joining one of a series of prefixes, including kilo-, hecto-, deka-, deci-, centi-, and milli-, with a base unit of measurement, such as meter, liter, or gram.
+
+
+
+
+
+What are metric units?
+
+
+Metric system refers to the internationally recognised decimalised system of measurement known as the International System of Units (SI), or to one of its predecessors. It is in widespread use, and where it is adopted, it is the only or most common system of weights and measures. It is used to measure everyday things such as the mass of a sack of flour, the height of a person, the speed of a car, and the volume of fuel in its tank. It is also used in science, industry and trade.
+
+
+
+
+What are the 7 basic units of measurement in the metric system?
+
+
+The SI system, also called the metric system, is used around the world. There are seven basic units in the SI system: the meter (m), the kilogram (kg), the second (s), the kelvin (K), the ampere (A), the mole (mol), and the candela (cd).<br />
+                                    <br />
+                                    There are seven base units in the SI system:
+                                    <br />
+                                    <br />
+                                    
+                                    the kilogram (kg), for mass.
+                                    <br />
+                                    <br />
+the second (s), for time.
+<br />
+<br />
+the kelvin (K), for temperature.
+<br />
+<br />
+the ampere (A), for electric current.
+<br />
+<br />
+the mole (mol), for the amount of a substance.
+<br />
+<br />
+the candela (cd), for luminous intensity.
+<br />
+<br />
+the meter (m), for distance.
+
+
+
+
+
+
+Why does the US not use the metric system?
+
+
+The biggest reasons the U.S. hasn't adopted the metric system are simply time and money. When the Industrial Revolution began in the country, expensive manufacturing plants became a main source of American jobs and consumer products.The United States Constitution states, in Section 8 of Article I, that Congress shall have the power to “fix the standard of weights and measures.” Deciding on a system to regulate how the U.S. measured objects, compared lengths, and weighed itself was without a doubt a high priority for the founding members of the country. When they began to vet potential systems around the year 1790, the newly developed French metric system made its way to the attention of Secretary of State Thomas Jefferson.
+
+
+
+
+Describe the differences between the various metric systems.
+
+
+There are two main systems for measuring distances and weight, the Imperial System of Measurement and the Metric System of Measurement. Most countries use the Metric System, which uses the measuring units such as meters and grams and adds prefixes like kilo, milli and centi to count orders of magnitude. In the United States, we use the older Imperial system, where things are measured in feet, inches and pounds. It might be confusing if you are living in the U.S for the first time and are not used to this system.

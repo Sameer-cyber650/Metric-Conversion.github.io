@@ -1,0 +1,676 @@
+<!doctype html>
+<html>
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+$('.navbar-light .dmenu').hover(function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+    });
+});
+</script>
+<!------ Include the above in your HEAD tag ---------->
+<style>
+<!---===============navbar-=============>
+.social-part .fa{
+    padding-right:20px;
+}
+ul li a{
+    margin-right: 20px;
+}
+<!---===============navbar end-=============>
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+<!--footer->
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+</style>
+
+
+
+<meta charset="utf-8">
+<title>METRIC CONVERSIONS</title>
+
+
+<link href="../rawhah aptech assignments/dummy wesite layout folder/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+<div style="background-image:url(all%20pictures/Wood-Wallpaper-Background-20.jpg)">
+<div style="color:#963;border-style:groove">
+<!--header end -->
+<div style="background-image:url(all%20pictures/Wood-Wallpaper-Background-20.jpg)">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-4">
+<a href="index 6.html"><img src="all pictures/da2c9c9a-5c49-4439-a76c-79706f9457a8_200x200 (1).png"></a></div>
+<div class="col-lg-8" style="margin-left: -178px;">
+<div><P style="text-align:center;
+font-family:'Times New Roman', Times, serif; font-size:60px; color:
+#000;     margin-top: 39px; ">METRIC CONVERSIONS</P></div></div></div>
+<div style="background-image:url(all%20pictures/Wood-Wallpaper-Background-20.jpg) ;
+height: 297px;    margin-top: -196px;"><marquee style="marquee-style:slide;margin-top: -35px;"><img src="all pictures/7980318_thermometer-auto-pole-cross-bar-hd-png-download-removebg-preview.png" style="       margin-top: 177px;
+    width: 99px;"/>
+    <img src="all pictures/old-scale-brass_original-removebg-preview.png" style="width: 92px;
+    margin-top: 193px;
+    margin-left: 54px;"/>
+       <img src="all pictures/s-l400-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+    <img src="all pictures/measure_tape_PNG14-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+     <img src="all pictures/51KxIggjIBL-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+     <img src="all pictures/AMProbe-Digital-Multimeter-e1496672652434-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+    <img src="all pictures/wp2874974.jpg" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+    <img src="all pictures/imgbin-pressure-measurement-gauge-diaphragm-measuring-instrument-high-definition-stainless-steel-with-base-scale-Vu8dsuqfBNe9aEZtXPxY1D9WG-removebg-preview.png" style="width: 103px;
+    margin-top: 193px;
+    margin-left: 74px;"/>
+    
+    
+   
+    
+   
+    
+</marquee></div>
+
+
+
+<div class="container" style="    HEIGHT: 78px;">
+<nav class="navbar navbar-expand-sm   navbar-light bg-light" >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><P style="font-size:18px;">Home</P> </a>
+            </li>
+            
+            <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              <P style="font-size:18px">Conversion</P>
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="lengthfinal.html"><P style="font-size:18px">LENGTH</P></a>
+              <a class="dropdown-item" href="Area final.html"><P style="font-size:18px">AREA</P></a>
+              <a class="dropdown-item" href="Mass con finl.html"><P style="font-size:18px">MASS</P></a>
+              <a class="dropdown-item"  href="temp con finl.html"><P style="font-size:18px">TEMPERATURE</P></a>
+              <a class="dropdown-item" href="volume final.html"><P style="font-size:18px">VOLUME</P></a>
+              <a class="dropdown-item" href="Currency.html"><P style="font-size:18px">CURRENCY</P></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="FAQ_S final.html"><P style="font-size:18px">FAQ'S</P></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="HISTORY.html"><P style="font-size:18px">History</P></a>
+          </li>
+          <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              <P style="font-size:18px">Articles</P>
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="si system.html" ><P style="font-size:18px">SI-unit system</P></a>
+              <a class="dropdown-item"  href="metric system.html"><P style="font-size:18px">Metric system</P></a>
+              <a class="dropdown-item"  href="history of metric sys.html"><P style="font-size:18px">History of Metric system</P></a>
+              <a class="dropdown-item"  href="us trad.html"><P style="font-size:18px">US-traditional unit system</P></a>
+              
+            </div>
+          </li>
+           <!-- <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="#">Link 4</a>
+              <a class="dropdown-item" href="#">Link 5</a>
+              <a class="dropdown-item" href="#">Link 6</a>
+            </div>
+          </li> -->
+          </ul>
+          </div>
+      </nav>
+</div>
+
+   
+
+
+<div class="container" style="    margin-top: 15px;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="all pictures/book-read-student-students (1).jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="all pictures/IMG-20191228-WA0012.jpg" alt="Chicago" style="width:100%; height:400px">
+      </div>
+    
+      <div class="item">
+        <img src="all pictures/40068353-maths-wallpapers (1).jpg" alt="New york" style="width:100%; height:400px ">
+      </div>
+   
+      
+      <div class="item">
+        <img src="all pictures/IMG-20191228-WA0001.jpg" alt="New york" style="width:100%; height:400px ">
+      </div>
+      
+      
+   
+   
+   
+   
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<hr>
+
+
+
+<section id="team" class="pb-5">
+    <div class="container">
+        <h1 class="section-title h1" style="font-family:Arial, Helvetica, sans-serif">CONVERSIONS</h1>
+        <div class="row">
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                               
+                                    <p><img class=" img-fluid" src="all pictures/photo-1508188317434-1fd219bb636f.jpg" alt="card image"></p>
+                                    <h4 class="card-title">LENGTH</h4>
+                                    <p class="card-text"> Length is defined as the straight-line distance between two points along an object. The SI unit of length is the meter, while the cgs system of units takes the centimeter as the base unit.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">ABOUT LENGTH</h4>
+                                 <a href="lengthfinal.html">   <p class="card-text" style="font-size:13px">Length is defined as the straight-line distance between two points along an object. The SI unit of length is the meter, while the cgs system of units takes the centimeter as the base unit.
+                                    <br>
+                                    Image result for length formula
+The distance formula itself is actually derived from the Pythagorean Theorem which is a 2 + b 2 = c 2 {a^2} + {b^2} = {c^2} a2+b2=c2 where c is the longest side of a right triangle (also known as the hypotenuse) and a and b are the other shorter sides (known as the legs of a right triangle).
+                                    </p></a>
+                                    
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                               
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                              
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="all pictures/photo-1501516069922-a9982bd6f3bd.jpg" alt="card image"></p>
+                                    <h4 class="card-title">AREA</h4>
+                                    <p class="card-text">Area is the quantity that expresses the extent of a two-dimensional figure or shape or planar lamina, in the plane. Surface area is its analog on the two-dimensional surface of a three-dimensional object.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">ABOUT AREA</h4>
+                                   <a href="Area final.html">  <p class="card-text" style="font-size:13px">Area is the quantity that expresses the extent of a two-dimensional figure or shape or planar lamina, in the plane. Surface area is its analog on the two-dimensional surface of a three-dimensional object.Area is measured in square units such as square inches, square feet or square meters. To find the area of a rectangle, multiply the length by the width. The formula is: A = L * W where A is the area, L is the length, W is the width, and * means multiply.</p></a>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="all pictures/math-vector-illustration-round-mathematics-600w-351914369.webp" alt="card image"></p>
+                                    <h4 class="card-title">TEMPETRATURE</h4>
+                                    <p class="card-text">Temperature is a measure of how hot or cold something is; specifically, a measure of the average kinetic energy of the particles in an object, which is a type of energy associated with motion. ... The terms hot and cold are not very scientific terms.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">ABOUT TEMPERATURE</h4>
+                              <a href="temp con finl.html">      <p class="card-text" style="font-size:13px">Temperature is a measure of how hot or cold something is; specifically, a measure of the average kinetic energy of the particles in an object, which is a type of energy associated with motion. ... The terms hot and cold are not very scientific terms.There are three main temperature scales: Celsius, Fahrenheit, and Kelvin. Temperatures on one scale can be converted to temperatures on another scale using the following equations: T∘F=95T∘C+32. T∘C=59(T∘F−32)</p></a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="all pictures/photo-1526304640581-d334cdbbf45e.jpg" alt="card image"></p>
+                                    <h4 class="card-title">CURRENCY</h4>
+                                    <p class="card-text">Currency is a medium of exchange for goods and services. In short, it's money, in the form of paper or coins, usually issued by a government and generally accepted at its face value as a method of payment.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">ABOUT CURRENCY</h4>
+                                 <a href="Currency.html">   <p class="card-text" style="font-size:13px">Currency is a medium of exchange for goods and services. In short, it's money, in the form of paper or coins, usually issued by a government and generally accepted at its face value as a method of payment.The formula for calculating exchange rates is: Starting Amount (Original Currency) / Ending Amount (New Currency) = Exchange Rate. For example, if you exchange 100 U.S. Dollars for 80 Euros, the exchange rate would be 1.25. But if you exchange 80 Euros for 100 U.S. Dollars, the exchange rate would be 0.8.</p></a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="all pictures/coin-weight-machine-wallpaper-hd.jpg" alt="card image"></p>
+                                    <h4 class="card-title">MASS</h4>
+                                    <p class="card-text">Mass. physics. Mass, in physics, quantitative measure of inertia, a fundamental property of all matter. It is, in effect, the resistance that a body of matter offers to a change in its speed or position upon the application of a force. The greater the mass of a body, the smaller the change produced by an applied force.</p>
+                               
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">ABOUT MASS</h4>
+                                  <a href="Mass con finl.html">  <p class="card-text" style="font-size:13px">Mass. physics. Mass, in physics, quantitative measure of inertia, a fundamental property of all matter. It is, in effect, the resistance that a body of matter offers to a change in its speed or position upon the application of a force. The greater the mass of a body, the smaller the change produced by an applied force.The mass of an object can be calculated in a number of different ways: mass=density×volume (m=ρV). Density is a measure of mass per unit of volume, so the mass of an object can be determined by multiplying density by volume. mass=force÷acceleration (m=F/a).</p></a>
+                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="all pictures/is.jpg" alt="card image"></p>
+                                    <h4 class="card-title">VOLUME</h4>
+                                    <p class="card-text">Volume is the quantity of three-dimensional space enclosed by a closed surface, for example, the space that a substance (solid, liquid, gas, or plasma) or shape occupies or contains. Volume is often quantified numerically using the SI derived unit, the cubic metre.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">ABOUT VOLUME</h4>
+                                   <a href="volume final.html"> <p class="card-text" style="font-size:13px">Volume is the quantity of three-dimensional space enclosed by a closed surface, for example, the space that a substance (solid, liquid, gas, or plasma) or shape occupies or contains. Volume is often quantified numerically using the SI derived unit, the cubic metre.The formula to find the volume multiplies the length by the width by the height. The good news for a cube is that the measure of each of these dimensions is exactly the same. Therefore, you can multiply the length of any side three times. This results in the formula: Volume = side * side * side.</p></a>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+
+        </div>
+    </div>
+</section>
+<!-- Team -->
+
+
+
+
+
+
+
+
+
+
+</div>
+
+  
+  </div>
+  
+  
+  <div id="footer" class="container">
+   <!-- Footer -->
+	<section id="footer">
+		<div class="container" style="background-image:url(all%20pictures/Wood-Wallpaper-Background-20.jpg)">
+			<div class="row text-center text-xs-center text-sm-left text-md-left" style="margin-top: 141px;">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5 style="font-size:50px;color:#2F1700"">Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li style="font-size:24px"><a href="index 6.html"style="color:#2F1700"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li style="font-size:24px"><a  href="HISTORY.html"style="color:#2F1700"></i>History</a></li>
+						<li style="font-size:24px"><a href="FAQ_S final.html"style="color:#2F1700"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						
+					</ul>
+				</div>
+				
+			<div class="row" style="margin-top: 176px; color: #000" >
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"style="color:#2F1700"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/i/flow/signup" target="_blank"style="color:#2F1700"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/*" target="_blank"style="color:#2F1700"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank"style="color:#2F1700"><i class="fa fa-google-plus" ></i></a></li>
+						<li class="list-inline-item"><a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"style="color:#2F1700"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					
+					
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+      
+
+
+</body>
+</html>

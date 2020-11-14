@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="600" height="600" version="1.1" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <marker id="marker2669" markerHeight="8.0000028" markerWidth="5.0000058" orient="auto" refX="4.4179826" refY="4.0000458">
+   <path d="m0.50537 0.50471 3.9947 3.4953-3.9947 3.4953" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0 -522.52)">
+  <circle cx="463.24" cy="697.92" r="56" fill="#cf122d" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="504.94" cy="876.16" r="56" fill="#ab378c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="391.42" cy="1018.4" r="56" fill="#412884" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="208.63" cy="1018" r="56" fill="#195da9" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="95.106" cy="876.32" r="56" fill="#62a830" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="136.44" cy="698.13" r="56" fill="#ec6728" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="300.51" cy="619.16" r="56" fill="#f8a909" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <text x="76.516548" y="894.57684" fill="#ffffff" font-family="'DejaVu Sans'" font-size="51.2px">A</text>
+  <text x="360.70517" y="1036.6221" fill="#ffffff" font-family="'DejaVu Sans'" font-size="51.2px">cd</text>
+  <text x="431.341" y="716.17053" fill="#ffffff" font-family="'DejaVu Sans'" font-size="51.2px">kg</text>
+  <text x="112.17337" y="711.38672" fill="#ffffff" font-family="'DejaVu Sans'" font-size="51.2px">m</text>
+  <text x="189.12038" y="1036.3059" fill="#ffffff" font-family="'DejaVu Sans'" font-size="51.2px">K</text>
+  <text x="456.26147" y="892.27924" fill="#ffffff" font-family="'DejaVu Sans'" font-size="51.2px">mol</text>
+  <text x="287.36819" y="632.41302" fill="#ffffff" font-family="'DejaVu Sans'" font-size="51.2px">s</text>
+  <path d="m243.11 644.05-48.104 30.218" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m264.73 670.13-126.67 159.65" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m285.73 679.34-63.356 277.61" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m318.79 678.39 59.051 279.14" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m359 641.35 45.905 31.048" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m149.9 758.65 44.23 197.86" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m177.16 745.13 174.93 223.9" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m198.19 698.56 202.63 0.39181" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m422.5 744.76-174.98 223.67" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+  <path d="m447.48 757.86-41.2 200.32" fill="none" marker-end="url(#marker2669)" stroke="#999" stroke-linecap="round" stroke-width="4"/>
+ </g>
+</svg>

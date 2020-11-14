@@ -1,0 +1,23 @@
+introduction
+
+
+
+The International System of Units (SI, abbreviated from the French Système international (d'unités)) is the modern form of the metric system and is the most widely used system of measurement[citation needed]. It comprises a coherent system of units of measurement built on seven base units, which are the second,
+ metre, kilogram, ampere, kelvin, mole, candela, and a set of twenty prefixes to the unit names and unit symbols that may be used when specifying multiples and fractions of the units.
+
+
+new si system
+
+
+
+In 2019, the SI base units were redefined, effective on 144th anniversary of the Metre Convention, 20 May 2019. In the redefinition, four of the seven SI base units – the kilogram, ampere, kelvin, and mole – were redefined by setting exact numerical values for the Planck constant (h), the elementary electric charge (e), the Boltzmann constant (kB), and the Avogadro constant (NA), respectively.
+The second, metre, and candela were already defined by physical constants and were subject to correction to their definitions. The new definitions aimed to improve the SI without changing the value of any units, ensuring continuity with existing measurements.[3][4] In November 2018, the 26th General Conference on Weights and Measures (CGPM) unanimously approved these changes,[5][6] which the International Committee for Weights and Measures (CIPM) had proposed earlier that year after determining that previously agreed conditions for the change had been met.[7]:23 These conditions were satisfied by a series of experiments that measured the constants to high accuracy relative to the old SI definitions, and were the culmination of decades of research.
+
+
+
+
+Describe the differences between the various metric systems.
+
+
+
+There are two main systems for measuring distances and weight, the Imperial System of Measurement and the Metric System of Measurement. Most countries use the Metric System, which uses the measuring units such as meters and grams and adds prefixes like kilo, milli and centi to count orders of magnitude. In the United States, we use the older Imperial system, where things are measured in feet, inches and pounds. It might be confusing if you are living in the U.S for the first time and are not used to this system. 
